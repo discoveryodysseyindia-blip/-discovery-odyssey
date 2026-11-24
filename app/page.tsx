@@ -69,6 +69,11 @@ export default function Home() {
   <nav className="flex flex-wrap items-center gap-6 text-sm font-semibold text-slate-700">
     <a href="#home" className="transition hover:text-emerald-700">Home</a>
     <a href="#tours" className="transition hover:text-emerald-700">Tour Packages</a>
+
+<a href="/car-rental" className="transition hover:text-emerald-700">
+  Car Rental
+</a>
+
     <a href="#about" className="transition hover:text-emerald-700">About Us</a>
     <a href="#enquiry" className="transition hover:text-emerald-700">Contact</a>
 
@@ -179,6 +184,44 @@ export default function Home() {
           </div>
         </article>
       ))}
+    </div>
+  </div>
+</section>
+
+
+{/* CAR RENTAL PROMOTION */}
+<section className="bg-white px-4 py-10 md:px-12 md:py-12">
+  <div className="mx-auto max-w-7xl overflow-hidden rounded-2xl bg-slate-900 shadow-lg">
+    <div className="grid items-center md:grid-cols-2">
+      <div className="p-6 text-white md:p-10">
+        <p className="text-sm font-bold uppercase tracking-widest text-amber-400">
+          Travel in Comfort
+        </p>
+
+        <h2 className="mt-3 text-2xl font-extrabold md:text-4xl">
+          Car Rental - Luxury Experience
+        </h2>
+
+        <p className="mt-4 text-sm leading-7 text-slate-300 md:text-base">
+          From sedans and SUVs to Tempo Travellers, Luxury Urbania
+          and spacious coaches, find the right vehicle for your journey.
+        </p>
+
+        <a
+          href="/car-rental"
+          className="mt-6 inline-block rounded-full bg-amber-400 px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-amber-300"
+        >
+          Explore Car Rental →
+        </a>
+      </div>
+
+      <div className="h-56 md:h-72">
+        <img
+          src="/vehicles/tempo-14.jpg"
+          alt="Tempo Traveller rental"
+          className="h-full w-full object-cover"
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -461,6 +504,13 @@ export default function Home() {
       <ul className="space-y-3 text-slate-300">
         <li><a href="#home" className="hover:text-amber-400">Home</a></li>
         <li><a href="#tours" className="hover:text-amber-400">Tour Packages</a></li>
+
+<li>
+  <a href="/car-rental" className="hover:text-amber-400">
+    Car Rental
+  </a>
+</li>
+
         <li><a href="#about" className="hover:text-amber-400">About Us</a></li>
         <li><a href="#location" className="hover:text-amber-400">Our Location</a></li>
         <li><a href="#enquiry" className="hover:text-amber-400">Contact Us</a></li>
