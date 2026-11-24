@@ -377,7 +377,7 @@ Requirements: ${data.get("message")}`;
                   name="date"
                   type="date"
                   required
-                  min={new Date().toISOString().split("T")[0]}
+                
                   className="w-full rounded-xl border border-slate-300 p-3"
                 />
               </div>
